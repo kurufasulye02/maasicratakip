@@ -1,0 +1,85 @@
+====================================================================
+             İCRA / NAFAKA / MAAŞ TAKİP PROGRAMI - V.3.0
+====================================================================
+
+Bu program; Milli Eğitim Bakanlığı'na bağlı okul/kurumların personellerine 
+ait icra, nafaka takibatlarını, maaş kesintilerini ve MEB Maaş Değişiklik 
+Bildirim Formu süreçlerini tek bir yerden yönetmek için tasarlanmıştır.
+
+--------------------------------------------------------------------
+📌 1. PROGRAMI NASIL ÇALIŞTIRIRIM?
+--------------------------------------------------------------------
+Programı çalıştırmak için klasörün içindeki "IcraNafakaMaasTakip.exe" 
+dosyasına çift tıklamanız yeterlidir. Kurulum gerektirmez.
+
+⚠️ ÖNEMLİ: Program ilk çalıştığında kendi veritabanını oluşturur. 
+Bu yüzden EXE dosyasını tek başına masaüstüne taşımayın. Programı 
+kullanırken yanında oluşan klasörlerle birlikte kullanın.
+
+⚠️ Programın yeni versiyonunu edindiğinizde yapmanız gereken tek şey
+yeni exe dosyasını eskisiyle değiştirmek.
+Bunun için eski dosyayı silmeyin yeni bir klasöre taşıyın.
+Yeni exe yi aynı klasöre taşıyın.
+Büyük oranda uyumululuk içerse de yeni eklenen raporlar olması durumunda
+küçük farklılıklar ortaya çıkabilir.
+
+--------------------------------------------------------------------
+📁 2. KLASÖRLER NE İŞE YARAR?
+--------------------------------------------------------------------
+Program ilk açıldığında EXE'nin yanında şu klasörleri otomatik oluşturur:
+
+* data\      : Programın veritabanı (icra.db) burada saklanır. Tüm 
+               personel, borç ve maaş verileriniz buradadır. 
+               (Silinmemelidir!)
+* yedekler\  : Programı her kapattığınızda sorulan "Yedek alınsın mı?" 
+               sorusuna "Evet" dediğinizde yedekler buraya kaydedilir.
+* logs\      : Olası bir hata durumunda hata kayıtları buraya yazılır.
+* templates\ : MEB Excel Raporu için gerekli olan resmi şablon dosyası 
+               (MAAŞ_BİLGİ_FORMU_SABLON.xlsx) burada bulunur.
+
+--------------------------------------------------------------------
+💾 3. VERİLERİMİ NASIL YEDEKLERİM?
+--------------------------------------------------------------------
+Veri kaybı yaşamamak için programı her kapattığınızda çıkan 
+"Çıkmadan önce yedek almak ister misiniz?" uyarısına "Evet" deyin.
+Dilerseniz üst menüden "Dosya -> Yedek Al" diyerek de manuel yedek 
+alabilirsiniz. 
+
+Eski bir yedeğe dönmek isterseniz: 
+"Dosya -> Yedekten Geri Yükle" menüsünü kullanabilirsiniz. 
+(Geri yükleme yapmadan hemen önce mevcut durumun güvenlik yedeği 
+otomatik olarak alınır, endişelenmeyin.)
+
+--------------------------------------------------------------------
+❓ 4. SIK KARŞILAŞILAN SORUNLAR VE ÇÖZÜMLERİ
+--------------------------------------------------------------------
+[!] Windows Defender veya Antivirüs uyarısı veriyor:
+    Kendi geliştirdiğimiz ve dijital imzası olmayan (ticari sertifikası 
+    bulunmayan) EXE dosyalarında Windows bazen yanlış alarm verebilir. 
+    "Ek bilgi" -> "Yine de çalıştır" diyerek devam edebilirsiniz.
+
+[!] Excel Raporu oluşturmuyor / Hata veriyor:
+    Programın yanındaki "templates" klasörünün ve içindeki Excel 
+    şablonunun silinmediğinden emin olun. Raporları kaydederken 
+    Masaüstü gibi yazma izni olan bir klasörü seçin.
+
+[!] Program açılmıyor:
+    EXE dosyasını sağ tıklayıp "Yönetici olarak çalıştır" seçeneğini 
+    deneyin. Ayrıca klasör yolunda Türkçe karakter (ğ, ş, ç vb.) veya 
+    boşluk çok fazlaysa programın yolu kısaltılarak denenebilir.
+
+--------------------------------------------------------------------
+🚀 5. YENİLİKLER (V.3.0)
+--------------------------------------------------------------------
+* MEB Maaş Değişiklik Formu şablonu güncellendi (V ve W sütunları).
+* "Kefalet Giriş Kesintisi" alanı eklendi.
+* Tüm ekranlardaki sayı formatları Türk Lirası (1.234,56 TL) 
+  standardına uyarlandı (virgül/nokta hataları giderildi).
+* Kesinti ve Raporlama ekranlarında sadece BORCU OLAN personeller 
+  listelenerek ekran kalabalığı azaltıldı.
+* Arayüzdeki alanlar daha derli toplu hale getirildi.
+
+====================================================================
+Geliştirici: Orhan ALKAN
+Tarih: 08.11.2026
+====================================================================
