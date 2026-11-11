@@ -1,4 +1,4 @@
-# main.py - Program başlangıç noktası (V.2.0 - Görev Çubuğu İkon Düzeltmesi)
+# main.py - Program başlangıç noktası (V.3.1 - Görev Çubuğu İkon Düzeltmesi)
 
 import ctypes
 import sys
