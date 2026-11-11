@@ -1,4 +1,4 @@
-# database.py - Veritabanı işlemleri (EXE UYUMLU) - V.2.0
+# database.py - Veritabanı işlemleri (EXE UYUMLU) - V.3.1
 
 import sqlite3
 import os
