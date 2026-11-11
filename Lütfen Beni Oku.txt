@@ -1,10 +1,12 @@
 ====================================================================
-             İCRA / NAFAKA / MAAŞ TAKİP PROGRAMI - V.3.1
+             İCRA / NAFAKA / MAAŞ TAKİP PROGRAMI - V.3.2
 ====================================================================
 
 Bu program; Milli Eğitim Bakanlığı'na bağlı okul/kurumların personellerine 
 ait icra, nafaka takibatlarını, maaş kesintilerini ve MEB Maaş Değişiklik 
 Bildirim Formu süreçlerini tek bir yerden yönetmek için tasarlanmıştır.
+
+YENİLİKLER BÖLÜMÜNE (5) GÖZ ATMAYI UNUTMAYIN...
 
 --------------------------------------------------------------------
 📌 1. PROGRAMI NASIL ÇALIŞTIRIRIM?
@@ -69,8 +71,13 @@ otomatik olarak alınır, endişelenmeyin.)
     boşluk çok fazlaysa programın yolu kısaltılarak denenebilir.
 
 --------------------------------------------------------------------
-🚀 5. YENİLİKLER (V.3.1)
+🚀 5. YENİLİKLER (V.3.2)
 --------------------------------------------------------------------
+* OTOMATİK ONLİNE SÜRÜM KONTROLÜ EKLENDİ. PORJE GİTHUB'A BAĞLANDI.
+  Program açılışta GitHub üzerinden otomatik sürüm kontrolü yapacak şekilde
+  güncellendi. Kaynak kodlar GitHub üzerinden yayına alındı. Yapmanız gereken
+  Açılan pencereden Evet seçeneğine tıklamak ve açılan sayfadan son .exe
+  dosyasını indirerek eskisi le değiştirmek.
 * MEB Maaş Değişiklik Formu şablonu güncellendi (V ve W sütunları).
 * "Kefalet Giriş Kesintisi" alanı eklendi.
 * Tüm ekranlardaki sayı formatları Türk Lirası (1.234,56 TL) 
@@ -81,5 +88,5 @@ otomatik olarak alınır, endişelenmeyin.)
 
 ====================================================================
 Geliştirici: Orhan ALKAN
-Tarih: 10.11.2026
+Tarih: 11.11.2026
 ====================================================================
