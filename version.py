@@ -1,8 +1,8 @@
-# version.py - Program versiyon bilgisi (V.2.0)
+# version.py - Program versiyon bilgisi (V.3.1)
 
-VERSION = "3.0.0"
-VERSION_DATE = "2026-11-08"
-VERSION_NOTLARI = "V.3.0 — Şablon uyumu, hata düzeltmeleri, tek versiyon kaynağı"
+VERSION = "3.1.0"
+VERSION_DATE = "2026-11-10"
+VERSION_NOTLARI = "V.3.1 — Şablon uyumu, hata düzeltmeleri, tek versiyon kaynağı"
 
 APP_NAME = "İCRA/NAFAKA/MAAŞ TAKİP PROGRAMI"
 APP_SUBTITLE = "Milli Eğitim Bakanlığı Okul/Kurumları İçin"
