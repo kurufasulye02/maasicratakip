@@ -1,4 +1,4 @@
-# gui/maas_degisiklik.py - Maaş Değişiklik İşlemleri (V.3.0 - 3 Sütunlu Düzen)
+# gui/maas_degisiklik.py - Maaş Değişiklik İşlemleri (V.3.2.0 - 3 Sütunlu Düzen)
 
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog

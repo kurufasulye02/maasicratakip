@@ -1,4 +1,4 @@
-# gui/kesinti.py - Kesinti işlemleri (V.2.1)
+# gui/kesinti.py - Kesinti işlemleri (V.3.2.0)
 
 import tkinter as tk
 from tkinter import ttk, messagebox

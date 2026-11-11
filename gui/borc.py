@@ -1,4 +1,4 @@
-# gui/borc.py - Borç işlemleri ekranı (V.2.1)
+# gui/borc.py - Borç işlemleri ekranı (V.3.2.0)
 
 import tkinter as tk
 from tkinter import ttk, messagebox

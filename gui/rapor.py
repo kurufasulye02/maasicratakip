@@ -1,4 +1,4 @@
-# gui/rapor.py - Raporlama ekranı (V.2.1)
+# gui/rapor.py - Raporlama ekranı (V.3.2.0)
 
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog

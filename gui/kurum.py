@@ -1,4 +1,4 @@
-# gui/kurum.py - Kurum bilgileri ekranı (V.2.0)
+# gui/kurum.py - Kurum bilgileri ekranı (V.3.2.0)
 
 import tkinter as tk
 from tkinter import ttk, messagebox

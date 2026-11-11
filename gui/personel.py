@@ -1,4 +1,4 @@
-# gui/personel.py - Personel işlemleri ekranı (V.2.0)
+# gui/personel.py - Personel işlemleri ekranı (V.3.2.0)
 
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog

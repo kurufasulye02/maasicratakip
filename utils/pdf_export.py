@@ -1,4 +1,4 @@
-# utils/pdf_export.py - PDF rapor oluşturma (V.3.0 - save() eklendi)
+# utils/pdf_export.py - PDF rapor oluşturma (V.3.2.0 - save() eklendi)
 
 import os
 from datetime import datetime

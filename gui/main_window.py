@@ -1,4 +1,4 @@
-# gui/main_window.py - Ana program penceresi (V.3.1 - İkon Destekli)
+# gui/main_window.py - Ana program penceresi (V.3.2.0 - İkon Destekli)
 
 import tkinter as tk
 from tkinter import ttk, messagebox
@@ -13,29 +13,31 @@ from utils.navigation import NavigationBar
 from utils.kurum_context import KurumContext
 from utils.logger import show_error_report_dialog, log_exception_context
 from utils.backup import yedek_al, yedekleri_listele, yedekten_geri_yukle
+from utils.updater import check_for_updates
 
-import version as _v  # V.2.0
+import version as _v  # V.3.0
 
 class MainWindow:
     def __init__(self, root):
         self.root = root
+        
+        # V.2.0: Versiyon başlıkta
         self.root.title(_v.APP_TITLE)
         
-        # --- İKON YÜKLEME KODU (DÜZELTİLDİ) ---
-        # PyInstaller --onefile kullanıldığında dosyalar sys._MEIPASS'e çıkarılır
+        # --- İKON YÜKLEME KODU ---
+        # EXE veya normal Python çalışması için güvenli yol bulma
         if getattr(sys, 'frozen', False):
-            base_dir = getattr(sys, '_MEIPASS', os.path.dirname(sys.executable))
+            base_dir = os.path.dirname(sys.executable)
         else:
             base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             
         icon_path = os.path.join(base_dir, "app_icon.ico")
-        
         if os.path.exists(icon_path):
             try:
                 self.root.iconbitmap(icon_path)
             except Exception as e:
                 print(f"İkon yüklenemedi: {e}")
-        # ----------------------------------------
+        # -------------------------
 
         self._pencereyi_boyutlandir()
         self.root.minsize(1000, 700)
@@ -67,6 +69,11 @@ class MainWindow:
 
         # Hoş geldin mesajı
         self.show_welcome()
+
+        # --- GÜNCELLEME KONTROLÜ EKLEMESİ ---
+        from utils.updater import check_for_updates
+        check_for_updates(self.root)
+   
 
     def _pencereyi_boyutlandir(self):
         """Pencereyi ekran çözünürlüğüne göre boyutlandırır ve ortalar."""

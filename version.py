@@ -1,8 +1,8 @@
-# version.py - Program versiyon bilgisi (V.3.1)
+# version.py - Program versiyon bilgisi (V.3.2.0)
 
-VERSION = "3.1.0"
-VERSION_DATE = "2026-11-10"
-VERSION_NOTLARI = "V.3.1 — Şablon uyumu, hata düzeltmeleri, tek versiyon kaynağı"
+VERSION = "3.2.0"
+VERSION_DATE = "2026-11-11"
+VERSION_NOTLARI = "V.3.2.0 — Şablon uyumu, hata düzeltmeleri, tek versiyon kaynağı"
 
 APP_NAME = "İCRA/NAFAKA/MAAŞ TAKİP PROGRAMI"
 APP_SUBTITLE = "Milli Eğitim Bakanlığı Okul/Kurumları İçin"
@@ -28,4 +28,5 @@ Tarih: {VERSION_DATE}
 ✅ Otomatik yedekleme
 ✅ Maaş değişiklik arşivi
 ✅ Sağlık/Hayat Sigortası İndirimi desteği
+✅ GitHub desteği ile otomatik güncelleme
 """

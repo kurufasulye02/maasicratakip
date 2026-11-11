@@ -1,4 +1,4 @@
-# utils/helpers.py - Yardımcı fonksiyonlar (V.3.0)
+# utils/helpers.py - Yardımcı fonksiyonlar (V.3.2.0)
 
 from datetime import datetime
 from utils.kurum_context import KurumContext

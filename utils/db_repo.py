@@ -1,4 +1,4 @@
-# utils/db_repo.py - Ortak veritabanı sorguları (V.3.0)
+# utils/db_repo.py - Ortak veritabanı sorguları (V.3.2.0)
 
 from database import db_connection
 

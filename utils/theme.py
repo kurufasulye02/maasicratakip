@@ -1,4 +1,4 @@
-# utils/theme.py - Tema yöneticisi (TAM KOD)
+# utils/theme.py - Tema yöneticisi
 
 class ThemeManager:
     """Açık/Koyu tema yönetimi"""

@@ -1,4 +1,4 @@
-# utils/maas_excel_export.py - Maaş Değişiklik Formu (V.3.0 - Kefalet Aidatı Eklendi)
+# utils/maas_excel_export.py - Maaş Değişiklik Formu (V.3.2.0 - GitHub Desteği eklendi)
 
 import shutil
 import os

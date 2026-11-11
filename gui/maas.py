@@ -1,4 +1,4 @@
-# gui/maas.py - Maaş kalemleri işlemleri (V.2.1)
+# gui/maas.py - Maaş kalemleri işlemleri (V.3.2.0)
 
 import tkinter as tk
 from tkinter import ttk, messagebox
