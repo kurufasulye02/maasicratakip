@@ -1,5 +1,5 @@
 ====================================================================
-             İCRA / NAFAKA / MAAŞ TAKİP PROGRAMI - V.3.0
+             İCRA / NAFAKA / MAAŞ TAKİP PROGRAMI - V.3.1
 ====================================================================
 
 Bu program; Milli Eğitim Bakanlığı'na bağlı okul/kurumların personellerine 
@@ -69,7 +69,7 @@ otomatik olarak alınır, endişelenmeyin.)
     boşluk çok fazlaysa programın yolu kısaltılarak denenebilir.
 
 --------------------------------------------------------------------
-🚀 5. YENİLİKLER (V.3.0)
+🚀 5. YENİLİKLER (V.3.1)
 --------------------------------------------------------------------
 * MEB Maaş Değişiklik Formu şablonu güncellendi (V ve W sütunları).
 * "Kefalet Giriş Kesintisi" alanı eklendi.
@@ -81,5 +81,5 @@ otomatik olarak alınır, endişelenmeyin.)
 
 ====================================================================
 Geliştirici: Orhan ALKAN
-Tarih: 08.11.2026
+Tarih: 10.11.2026
 ====================================================================
