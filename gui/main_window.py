@@ -1,4 +1,4 @@
-# gui/main_window.py - Ana program penceresi (V.2.0 - İkon Destekli)
+# gui/main_window.py - Ana program penceresi (V.3.1 - İkon Destekli)
 
 import tkinter as tk
 from tkinter import ttk, messagebox
